@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+	 xmlns:gap   = "http://phonegap.com/ns/1.0"
+	 id          = "com.phonegap.example"
+	 versionCode = "10"
+	 version     = "1.0.0" >
+
+	<preference name="permissions" value="none"/>
+	<icon src="icon.png" />
+	<!-- THE DEFAULT SPLASH SCREEN TO USE -->
+	<!--IOS-->
+	<!-- iPhone and iPod touch -->
+	<gap:splash src="splash_icon.png" gap:platform="ios" width="320" height="480" />
+	<gap:splash src="splash_icon.png" gap:platform="ios" width="640" height="960" />
+	<!-- iPad -->
+	<gap:splash src="splash_icon.png" gap:platform="ios" width="768" height="1024" />
+	<gap:splash src="splash_icon.png" gap:platform="ios" width="1024" height="768" />
+	<!-- Android -->
+	<gap:splash src="splash_icon.png" gap:platform="android" gap:qualifier="ldpi" />
+	<gap:splash src="splash_icon.png" gap:platform="android" gap:qualifier="mdpi" />
+	<gap:splash src="splash_icon.png" gap:platform="android" gap:qualifier="hdpi" />
+	<gap:splash src="splash_icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<gap:splash src="splash_icon.png" gap:platform="android" gap:qualifier="fr-xhdpi" />
+	<gap:splash src="splash_icon.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
+	<gap:splash src="splash_icon.png" gap:platform="android" gap:qualifier="land-xxhdpi" />
+	<!-- Windows Phone -->
+	<gap:splash src="splash_icon.png" gap:platform="winphone" />
+   
+	<gap:splash src="splash_icon.png" gap:platform="blackberry" />
+	<name>nijahelp</name>
+
+	<description>
+		 Simple health care application for Nigerians
+	</description>
+
+	<author href="https://build.phonegap.com" email="tayokay@yahoo.com">
+		Kolade Gureje
+	</author>
+
+</widget>
