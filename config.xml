@@ -36,5 +36,6 @@
 	<author href="https://build.phonegap.com" email="tayokay@yahoo.com">
 		Kolade Gureje
 	</author>
-
+	<access origin="http://jquery.com" subdomains="true" />
+	
 </widget>
